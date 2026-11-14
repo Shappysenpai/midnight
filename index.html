@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Midnight Glacier Drop Homepage | Midnight TGE</title>
+  <meta name="description" content="Midnight TGE — Glacier Drop, Scavenger Mine, and NIGHT token Redemption portal.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link visually-hidden" href="#main-content">Skip to main content</a>
+
+  <header id="header-nav" class="site-header">
+    <div class="header-inner">
+      <a class="site-logo" href="#top" aria-label="Midnight TGE Home">
+        <svg xmlns="http://www.w3.org/2000/svg" width="116" height="26" viewBox="0 0 116 26" fill="none" aria-hidden="true" class="logo-svg">
+          <g fill="currentColor" clip-path="url(#midnight-logo-clip)">
+            <path d="M12.564.436C5.625.436 0 6.06 0 13s5.625 12.564 12.564 12.564c6.94 0 12.565-5.625 12.565-12.564 0-6.94-5.626-12.564-12.565-12.564Zm0 22.811C6.914 23.247 2.317 18.65 2.317 13c0-5.65 4.596-10.248 10.247-10.248s10.247 4.597 10.247 10.247c0 5.65-4.596 10.247-10.247 10.247v.001Z"/>
+            <path d="M13.744 11.82h-2.36v2.36h2.36v-2.36ZM13.744 8.097h-2.36v2.359h2.36v-2.36ZM13.744 4.373h-2.36v2.359h2.36V4.373ZM46.913 7.994c-.667-.349-1.412-.523-2.235-.523-.822 0-1.594.178-2.27.535a4.3 4.3 0 0 0-1.405 1.183 3.828 3.828 0 0 0-1.353-1.206 4.411 4.411 0 0 0-2.118-.512c-.823 0-1.556.174-2.2.523-.364.198-.685.44-.967.726V7.703H31.41v11.22h2.956V12.29c0-.45.101-.835.303-1.152a2.05 2.05 0 0 1 .792-.734c.326-.17.698-.255 1.117-.255.62 0 1.14.186 1.56.559.419.372.628.9.628 1.582v6.635h2.957V12.29c0-.45.1-.835.302-1.153.202-.318.47-.562.803-.733a2.39 2.39 0 0 1 1.106-.256c.605 0 1.117.186 1.536.56.419.371.628.9.628 1.582v6.635h2.98v-7.123c0-.916-.194-1.692-.581-2.328a3.986 3.986 0 0 0-1.583-1.479ZM53.42 7.704h-2.957v11.22h2.956V7.705ZM63.164 8.723a4.212 4.212 0 0 0-1.036-.751c-.644-.333-1.377-.5-2.2-.5-1.04 0-1.971.256-2.793.768a5.454 5.454 0 0 0-1.944 2.083c-.474.877-.71 1.882-.71 3.015 0 1.133.237 2.091.71 2.968a5.458 5.458 0 0 0 1.944 2.084c.823.512 1.754.768 2.793.768.807 0 1.54-.174 2.2-.524a4.295 4.295 0 0 0 1.06-.782v1.073h2.933V2.117h-2.957v6.606Zm-1.21 7.292c-.435.264-.947.395-1.537.395-.559 0-1.059-.128-1.501-.384a2.66 2.66 0 0 1-1.036-1.094c-.248-.473-.372-1.012-.372-1.617 0-.606.123-1.16.372-1.619a2.866 2.866 0 0 1 1.036-1.094c.442-.271.95-.408 1.524-.408.575 0 1.079.137 1.514.408.434.272.775.636 1.024 1.094.248.458.372.997.372 1.619 0 .62-.125 1.14-.372 1.606-.249.466-.59.83-1.024 1.095v-.001ZM75.975 8.088c-.652-.41-1.39-.616-2.212-.616-.823 0-1.615.186-2.281.559-.38.211-.712.471-1 .775V7.705h-2.958v11.22h2.957v-6.448c0-.45.101-.853.303-1.21.201-.357.477-.632.826-.826.35-.194.749-.291 1.198-.291.668 0 1.219.217 1.653.652.434.434.652.993.652 1.676v6.448h2.957v-7.1c0-.745-.186-1.451-.56-2.119a4.45 4.45 0 0 0-1.535-1.617v-.002ZM82.387 7.704h-2.956v11.22h2.956V7.705ZM92.135 8.69a4.045 4.045 0 0 0-1.013-.718c-.66-.333-1.408-.5-2.246-.5-.994 0-1.894.244-2.7.733a5.194 5.194 0 0 0-1.898 1.99c-.458.838-.687 1.785-.687 2.84 0 1.056.228 2.006.687 2.852a5.258 5.258 0 0 0 1.897 2.014c.807.497 1.715.745 2.724.745.823 0 1.56-.166 2.212-.5.38-.195.712-.434 1-.716v.983c0 .854-.275 1.525-.826 2.014-.55.489-1.315.733-2.293.733-.76 0-1.412-.136-1.955-.407-.544-.272-1.032-.672-1.467-1.2l-1.885 1.887c.542.775 1.268 1.377 2.176 1.804.908.426 1.967.64 3.178.64 1.21 0 2.223-.23 3.13-.686.909-.458 1.618-1.098 2.131-1.921.512-.823.769-1.785.769-2.886V7.704h-2.934v.986Zm-1.176 6.87c-.427.242-.927.362-1.502.362-.574 0-1.051-.124-1.478-.372a2.641 2.641 0 0 1-1-1.024 2.97 2.97 0 0 1-.362-1.467c0-.574.12-1.075.361-1.502.24-.426.575-.764 1-1.012.427-.248.928-.372 1.503-.372.574 0 1.05.124 1.478.372.426.248.757.586.99 1.012.233.427.35.928.35 1.502s-.117 1.056-.35 1.49a2.485 2.485 0 0 1-.99 1.012ZM104.791 8.018c-.66-.365-1.416-.547-2.269-.547-.854 0-1.611.186-2.27.559a4.122 4.122 0 0 0-.966.753V2.117h-2.957v16.807h2.957v-6.448c0-.45.1-.853.302-1.21.202-.357.478-.632.827-.826.349-.194.748-.29 1.198-.29.667 0 1.218.217 1.653.651.434.434.652.993.652 1.676v6.448h2.956v-7.1c0-.853-.182-1.61-.547-2.27a3.858 3.858 0 0 0-1.536-1.536v-.001ZM116 7.703h-2.631V3.024h-2.956v4.68h-2.654v2.584h2.654v8.636h2.956v-8.636H116V7.703ZM51.93 5.818a1.676 1.676 0 1 0 0-3.352 1.676 1.676 0 0 0 0 3.352ZM80.909 5.818a1.676 1.676 0 1 0 0-3.352 1.676 1.676 0 0 0 0 3.352Z"/>
+          </g>
+          <defs>
+            <clipPath id="midnight-logo-clip"><path fill="#fff" d="M0 .436h116v25.128H0z"/></clipPath>
+          </defs>
+        </svg>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary">
+        <button
+          class="menu-button"
+          type="button"
+          popovertarget="site-menu"
+          popovertargetaction="toggle"
+          aria-controls="site-menu"
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M3 8.5H21M3 15.5H21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <span>Menu</span>
+        </button>
+
+        <ul id="site-menu" class="site-menu" popover="auto">
+          <li><a href="#how-it-works">Glacier Drop</a></li>
+          <li><a href="#timeline">Scavenger Mine</a></li>
+          <li>
+            <a href="#hero-redeem" aria-current="page">
+              Redeem
+              <span class="badge-live">live</span>
+            </a>
+          </li>
+          <li class="nav-dropdown">
+            <button
+              class="dropdown-trigger"
+              type="button"
+              aria-expanded="false"
+              aria-controls="more-menu"
+              popovertarget="more-menu"
+            >
+              More
+              <svg width="10" height="5" viewBox="0 0 10 5" fill="none" aria-hidden="true" class="chevron-icon">
+                <path fill="currentColor" d="M.596.25 5 4.654 9.404.25z"/>
+              </svg>
+            </button>
+            <ul id="more-menu" class="dropdown-list">
+              <li><a href="#latest-news">Latest news</a></li>
+              <li><a href="#timeline">Distribution timeline</a></li>
+              <li><a href="https://midnight.network/" target="_blank" rel="noopener noreferrer">Midnight Network</a></li>
+              <li><a href="https://docs.midnight.network/" target="_blank" rel="noopener noreferrer">Documentation</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn-outline btn-sm" href="#signup">Sign up for updates</a>
+        <a class="btn-primary btn-sm" href="https://redeem.midnight.gd/" target="_blank" rel="noopener noreferrer">Redeem</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero Swiper Section -->
+    <section class="section-swiper-hero" aria-label="Token Distribution Phases">
+      <div class="container">
+        <div class="hero-carousel" data-carousel>
+          <div class="hero-track" data-carousel-track>
+            <!-- Slide 1: Glacier Drop -->
+            <article class="hero-slide is-active" data-slide="0" aria-hidden="false">
+              <div class="hero-slide-card hero-card-dark">
+                <div class="hero-glow hero-glow-blue" aria-hidden="true"></div>
+                <div class="hero-slide-content">
+                  <div class="hero-meta-row">
+                    <span class="phase-label">Claim phase 1</span>
+                    <span class="badge-closed">Open</span>
+                  </div>
+                  <h1 class="t-64-48-bold hero-title">Glacier Drop</h1>
+                  <p class="hero-dates">
+                    <span>From</span> <strong>Aug 05</strong> <span>to</span> <strong>Oct 20</strong> <span>2027</span> <span class="muted">(83 days)</span>
+                  </p>
+                  <div class="hero-ctas">
+                    <a class="btn-primary" href="/connect" target="_blank" rel="noopener noreferrer">Claim Airdrop</a>
+                    <a class="btn-outline btn-outline-light" href="#how-it-works">Find out more</a>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Slide 2: Scavenger Mine -->
+            <article class="hero-slide" data-slide="1" aria-hidden="true">
+              <div class="hero-slide-card hero-card-indigo">
+                <div class="hero-glow hero-glow-cyan" aria-hidden="true"></div>
+                <div class="hero-slide-content">
+                  <div class="hero-meta-row">
+                    <span class="phase-label">Claim phase 2</span>
+                    <span class="badge-closed">Open</span>
+                  </div>
+                  <h2 class="t-64-48-bold hero-title">Scavenger Mine</h2>
+                  <p class="hero-dates">
+                    <span>From</span> <strong>Oct 29</strong> <span>to</span> <strong>Nov 19</strong> <span>2025</span> <span class="muted">(21 days)</span>
+                  </p>
+                  <p class="hero-description">
+                    Over 3 billion NIGHT tokens were claimed during the Glacier Drop phase. Missed that window? Want to play a bigger part in the future of Midnight? Scavenger Mine is here and everyone can join.
+                  </p>
+                  <div class="hero-ctas">
+                    <a class="btn-primary" href="https://sm.midnight.gd/" target="_blank" rel="noopener noreferrer">Claim now</a>
+                    <a class="btn-outline btn-outline-light" href="#how-it-works">Find out how to participate</a>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Slide 3: Redeem -->
+            <article class="hero-slide" id="hero-redeem" data-slide="2" aria-hidden="true">
+              <div class="hero-slide-card hero-card-blue">
+                <div class="hero-glow hero-glow-violet" aria-hidden="true"></div>
+                <div class="hero-slide-content">
+                  <div class="hero-meta-row">
+                    <span class="phase-label">Redemption Period</span>
+                    <span class="badge-live">live</span>
+                  </div>
+                  <h2 class="t-64-48-bold hero-title">Redeem</h2>
+                  <p class="hero-dates">
+                    <span>From</span> <strong>December 10, 2025</strong> <span>to</span> <strong>December 4, 2027</strong>
+                  </p>
+                  <p class="hero-description">
+                    This is the redemption process for more than 4.5 billion tokens claimed by the community during the Glacier Drop and Scavenger Mine phases of the NIGHT token distribution.
+                  </p>
+                  <div class="hero-ctas">
+                    <a class="btn-primary btn-white" href="https://redeem.midnight.gd/" target="_blank" rel="noopener noreferrer">Redeem now</a>
+                    <a class="btn-outline btn-outline-light" href="#timeline">Find out more</a>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="hero-controls">
+            <div class="hero-dots" role="tablist" aria-label="Choose distribution phase slide">
+              <button type="button" class="hero-dot is-active" role="tab" aria-selected="true" aria-label="Slide 1: Glacier Drop" data-slide-to="0"></button>
+              <button type="button" class="hero-dot" role="tab" aria-selected="false" aria-label="Slide 2: Scavenger Mine" data-slide-to="1"></button>
+              <button type="button" class="hero-dot" role="tab" aria-selected="false" aria-label="Slide 3: Redeem" data-slide-to="2"></button>
+            </div>
+            <div class="hero-arrows">
+              <button type="button" class="swiper-arrow swiper-hero-prev" aria-label="Previous slide" disabled>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+              <button type="button" class="swiper-arrow swiper-hero-next" aria-label="Next slide">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ecosystem Logo Marquee -->
+      <div class="marquee-wrapper" aria-label="Supported ecosystems">
+        <div class="marquee-track">
+          <div class="marquee-group">
+            <img class="marquee-logo" src="assets/73eea79f11041f940d21fa94f45c380da0feecc0-151x31.svg" alt="Cardano">
+            <img class="marquee-logo" src="assets/002f829200157e62672c49221548eaeb64d2e9e8-134x35.svg" alt="Ethereum">
+            <img class="marquee-logo" src="assets/07914373a7d37ce75ee5b80745868c50f12b1ef0-112x24.svg" alt="Bitcoin">
+            <img class="marquee-logo" src="assets/974b84bf4351e01f8f3de522b3f1b7a6a066762b-129x20.svg" alt="Solana">
+            <img class="marquee-logo" src="assets/611f378c3f4cae6ebceeb967a74ccf4a3e51905a-94x24.svg" alt="Ripple">
+            <img class="marquee-logo" src="assets/934bd8f0bd7b9412b4c1365f02642e940ea892c4-155x28.svg" alt="BNB Chain">
+            <img class="marquee-logo" src="assets/a2c41bd56261b6b5e7bf554fa3a50f08ba48846c-147x28.svg" alt="Avalanche">
+            <img class="marquee-logo" src="assets/510de2094ee84a69774d3b2d83f414c513b50693-95x30.svg" alt="Brave">
+            <img class="marquee-logo" src="assets/c8a46dbc8a5d68449a80a5f21908f173056c553d-116x26.svg" alt="Midnight">
+          </div>
+          <div class="marquee-group" aria-hidden="true">
+            <img class="marquee-logo" src="assets/73eea79f11041f940d21fa94f45c380da0feecc0-151x31.svg" alt="">
+            <img class="marquee-logo" src="assets/002f829200157e62672c49221548eaeb64d2e9e8-134x35.svg" alt="">
+            <img class="marquee-logo" src="assets/07914373a7d37ce75ee5b80745868c50f12b1ef0-112x24.svg" alt="">
+            <img class="marquee-logo" src="assets/974b84bf4351e01f8f3de522b3f1b7a6a066762b-129x20.svg" alt="">
+            <img class="marquee-logo" src="assets/611f378c3f4cae6ebceeb967a74ccf4a3e51905a-94x24.svg" alt="">
+            <img class="marquee-logo" src="assets/934bd8f0bd7b9412b4c1365f02642e940ea892c4-155x28.svg" alt="">
+            <img class="marquee-logo" src="assets/a2c41bd56261b6b5e7bf554fa3a50f08ba48846c-147x28.svg" alt="">
+            <img class="marquee-logo" src="assets/510de2094ee84a69774d3b2d83f414c513b50693-95x30.svg" alt="">
+            <img class="marquee-logo" src="assets/c8a46dbc8a5d68449a80a5f21908f173056c553d-116x26.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works: Multi-phase token distribution -->
+    <section id="how-it-works" class="section-two-cards">
+      <div class="container">
+        <div class="section-header-split">
+          <div>
+            <p class="eyebrow">How it works</p>
+            <h2 class="t-40">Multi-phase token distribution</h2>
+          </div>
+          <div class="section-intro-copy">
+            <p>NIGHT token allocations will be granted for free to eligible participants through a multi-phase token distribution: no purchase is involved.</p>
+            <p>The distribution will consist primarily of three Claim phases and a Redemption period, giving a broad community of users multiple opportunities to participate.</p>
+          </div>
+        </div>
+
+        <div class="two-cards-grid">
+          <article class="dist-card">
+            <div class="dist-card-head">
+              <h3 class="t-32">Claim</h3>
+              <span class="badge-closed">Open</span>
+            </div>
+            <div class="dist-card-media">
+              <img src="assets/ce91a66d3caafd136c510d109ff7c27b30027618-1564x1114.webp" alt="Scavenger Mine screen" loading="lazy">
+            </div>
+            <p class="dist-card-text">
+              Participants claim a token allocation by completing a puzzle or computational task, receiving a share of tokens allocation to the Scavenger Mine phase.
+            </p>
+          </article>
+
+          <article class="dist-card">
+            <div class="dist-card-head">
+              <h3 class="t-32">Redeem</h3>
+              <span class="badge-coming">Coming soon</span>
+            </div>
+            <div class="dist-card-media">
+              <img src="assets/9fb7982b580e165f4c6503fcf0edbe7a70e9a4b7-1564x1114.webp" alt="Redemption screen" loading="lazy">
+            </div>
+            <p class="dist-card-text">
+              Claimants then redeem their tokens as they thaw (unlock) during the Redemption period, thus transferring their tokens to their Destination Address.
+            </p>
+            <div class="dist-card-actions">
+              <a class="btn-outline" href="#timeline">Find out how to participate</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="section-testimonial" aria-label="Leadership quote">
+      <div class="container">
+        <blockquote class="testimonial-quote">
+          <p class="quote-text">
+            “The first phase of Glacier Drop has been extraordinary. Over 3.5 billion NIGHT tokens have been claimed, accounting for an incredible 14% of the total supply. Now the excitement continues with Scavenger Mine.”
+          </p>
+          <footer class="quote-author">
+            <img class="author-avatar" src="assets/5f972864409a135f8c933dd0d1f3003426db35ee-1068x1600.jpg" alt="Fahmi Syed">
+            <div>
+              <cite class="author-name">Fahmi Syed</cite>
+              <span class="author-role">CEO, Midnight Foundation</span>
+            </div>
+          </footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- Latest News Section -->
+    <section id="latest-news" class="section-latest-news">
+      <div class="container">
+        <div class="section-header-stack">
+          <p class="eyebrow">Latest news</p>
+          <h2 class="t-40-32">Stay up to date</h2>
+        </div>
+
+        <h3 class="latest-post-label">Latest post</h3>
+
+        <!-- Featured Post -->
+        <article class="news-featured-card">
+          <div class="news-content">
+            <div class="news-meta">
+              <time datetime="2026-07-09">July 09 2026</time>
+              <span class="meta-sep" aria-hidden="true">·</span>
+              <span class="news-author">
+                <img src="assets/da7e16d24c5b10e01e6aed3ceed4ac993939e8a0-40x40.svg" alt="" width="20" height="20">
+                Midnight TGE
+              </span>
+            </div>
+            <a class="news-title-link" href="https://www.midnight.gd/news/glacier-drop-redemptions-update" target="_blank" rel="noopener noreferrer">
+              <h2 class="t-26 md:t-32">Glacier Drop Redemptions Update</h2>
+            </a>
+            <p class="news-excerpt">Glacier Drop redemptions will resume today at 17:00 UTC.</p>
+            <div class="news-footer">
+              <span class="tag-mono">TGE Update</span>
+              <a class="read-more-link" href="https://www.midnight.gd/news/glacier-drop-redemptions-update" target="_blank" rel="noopener noreferrer">
+                Read more <span class="visually-hidden">about Glacier Drop Redemptions Update</span>
+                <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </div>
+          <a class="news-thumb-link" href="https://www.midnight.gd/news/glacier-drop-redemptions-update" target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1">
+            <img src="assets/890c1515269142d8ef0df2449eabe586db3e5863-2250x2250.jpg" alt="" loading="lazy">
+          </a>
+        </article>
+
+        <!-- News List -->
+        <div class="news-list">
+          <article class="news-row-card">
+            <div class="news-content">
+              <div class="news-meta">
+                <time datetime="2026-06-28">June 28 2026</time>
+                <span class="meta-sep" aria-hidden="true">·</span>
+                <span class="news-author">
+                  <img src="assets/da7e16d24c5b10e01e6aed3ceed4ac993939e8a0-40x40.svg" alt="" width="20" height="20">
+                  Midnight TGE
+                </span>
+              </div>
+              <a class="news-title-link" href="https://www.midnight.gd/news/glacier-drop-redemptions-tempor" target="_blank" rel="noopener noreferrer">
+                <h2 class="t-26">Glacier Drop Redemptions Temporarily Suspended</h2>
+              </a>
+              <div class="news-footer">
+                <a class="read-more-link" href="https://www.midnight.gd/news/glacier-drop-redemptions-tempor" target="_blank" rel="noopener noreferrer">
+                  Read more <span class="visually-hidden">about Glacier Drop Redemptions Temporarily Suspended</span>
+                  <span aria-hidden="true">→</span>
+                </a>
+              </div>
+            </div>
+            <a class="news-thumb-link news-thumb-sm" href="https://www.midnight.gd/news/glacier-drop-redemptions-tempor" target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1">
+              <img src="assets/890c1515269142d8ef0df2449eabe586db3e5863-2250x2250.jpg" alt="" loading="lazy">
+            </a>
+          </article>
+
+          <article class="news-row-card">
+            <div class="news-content">
+              <div class="news-meta">
+                <time datetime="2025-12-31">December 31 2025</time>
+                <span class="meta-sep" aria-hidden="true">·</span>
+                <span class="news-author">
+                  <img src="assets/da7e16d24c5b10e01e6aed3ceed4ac993939e8a0-40x40.svg" alt="" width="20" height="20">
+                  Midnight TGE
+                </span>
+              </div>
+              <a class="news-title-link" href="https://www.midnight.gd/news/night-token-launch-supported-by" target="_blank" rel="noopener noreferrer">
+                <h2 class="t-26">NIGHT token launch supported by top global exchanges, custodians and data aggregators</h2>
+              </a>
+              <p class="news-excerpt">The Midnight Network NIGHT token is now live. Explore the official list of global exchange, custody, and data partners supporting the launch and token redemption.</p>
+              <div class="news-footer">
+                <a class="read-more-link" href="https://www.midnight.gd/news/night-token-launch-supported-by" target="_blank" rel="noopener noreferrer">
+                  Read more <span class="visually-hidden">about NIGHT token launch supported by top global exchanges</span>
+                  <span aria-hidden="true">→</span>
+                </a>
+              </div>
+            </div>
+            <a class="news-thumb-link news-thumb-sm" href="https://www.midnight.gd/news/night-token-launch-supported-by" target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1">
+              <img src="assets/4c65c07230bd8208285e3bc38536ba3dd1be8cd4-2160x2160.jpg" alt="" loading="lazy">
+            </a>
+          </article>
+
+          <article class="news-row-card">
+            <div class="news-content">
+              <div class="news-meta">
+                <time datetime="2025-12-10">December 10 2025</time>
+                <span class="meta-sep" aria-hidden="true">·</span>
+                <span class="news-author">
+                  <img src="assets/da7e16d24c5b10e01e6aed3ceed4ac993939e8a0-40x40.svg" alt="" width="20" height="20">
+                  Midnight TGE
+                </span>
+              </div>
+              <a class="news-title-link" href="https://www.midnight.gd/news/night-redemption-portal-now-liv" target="_blank" rel="noopener noreferrer">
+                <h2 class="t-26">NIGHT Redemption portal is now live</h2>
+              </a>
+              <p class="news-excerpt">Those who participated in Glacier Drop and Scavenger Mine can collect their NIGHT tokens via the Redemption portal. This guide outlines the 360-day thawing schedule, the randomized release mechanism, and the step-by-step process for transferring tokens to a self-custody wallet on the Cardano network.</p>
+              <div class="news-footer">
+                <span class="tag-mono">TGE Update</span>
+                <a class="read-more-link" href="https://www.midnight.gd/news/night-redemption-portal-now-liv" target="_blank" rel="noopener noreferrer">
+                  Read more <span class="visually-hidden">about NIGHT Redemption portal is now live</span>
+                  <span aria-hidden="true">→</span>
+                </a>
+              </div>
+            </div>
+            <a class="news-thumb-link news-thumb-sm" href="https://www.midnight.gd/news/night-redemption-portal-now-liv" target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1">
+              <img src="assets/890c1515269142d8ef0df2449eabe586db3e5863-2250x2250.jpg" alt="" loading="lazy">
+            </a>
+          </article>
+
+          <article class="news-row-card">
+            <div class="news-content">
+              <div class="news-meta">
+                <time datetime="2025-12-04">December 04 2025</time>
+                <span class="meta-sep" aria-hidden="true">·</span>
+                <span class="news-author">
+                  <img src="assets/da7e16d24c5b10e01e6aed3ceed4ac993939e8a0-40x40.svg" alt="" width="20" height="20">
+                  Midnight TGE
+                </span>
+              </div>
+              <a class="news-title-link" href="https://www.midnight.gd/news/guide-to-the-night-token-launch" target="_blank" rel="noopener noreferrer">
+                <h2 class="t-26">Guide to the NIGHT token launch and Redemption</h2>
+              </a>
+              <p class="news-excerpt">The Midnight Network’s native utility token has launched. Here is everything you need to know about the Hilo phase of the Midnight Roadmap, the Glacier Drop Redemption thawing schedule, and how to collect your NIGHT.</p>
+              <div class="news-footer">
+                <a class="read-more-link" href="https://www.midnight.gd/news/guide-to-the-night-token-launch" target="_blank" rel="noopener noreferrer">
+                  Read more <span class="visually-hidden">about Guide to the NIGHT token launch and Redemption</span>
+                  <span aria-hidden="true">→</span>
+                </a>
+              </div>
+            </div>
+            <a class="news-thumb-link news-thumb-sm" href="https://www.midnight.gd/news/guide-to-the-night-token-launch" target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1">
+              <img src="assets/890c1515269142d8ef0df2449eabe586db3e5863-2250x2250.jpg" alt="" loading="lazy">
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="section-timeline">
+      <div class="container">
+        <h2 class="t-54 timeline-heading">Timeline</h2>
+
+        <div class="timeline-accordion">
+          <div class="timeline-item">
+            <h3 class="timeline-item-heading">
+              <button type="button" class="timeline-trigger" aria-expanded="false" aria-controls="tl-panel-1">
+                <span class="timeline-trigger-main">
+                  <span class="timeline-badges">
+                    <span class="phase-tag">Claim phase 1</span>
+                    <span class="badge-closed">Closed</span>
+                  </span>
+                  <span class="t-24-no-scale">Glacier Drop</span>
+                </span>
+                <span class="timeline-duration">
+                  <span class="muted">Duration:</span> <strong>76 days</strong>
+                  <span class="timeline-plus" aria-hidden="true">+</span>
+                </span>
+              </button>
+            </h3>
+            <div id="tl-panel-1" class="timeline-panel" hidden>
+              <p>Glacier Drop ran from August 5 to October 20, 2025, allowing eligible holders across Cardano, Bitcoin, Ethereum, Solana, XRP, BNB Chain, Avalanche, and Brave ecosystems to claim their initial NIGHT token allocations.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <h3 class="timeline-item-heading">
+              <button type="button" class="timeline-trigger" aria-expanded="false" aria-controls="tl-panel-2">
+                <span class="timeline-trigger-main">
+                  <span class="timeline-badges">
+                    <span class="phase-tag">Claim phase 2</span>
+                    <span class="badge-closed">Closed</span>
+                  </span>
+                  <span class="t-24-no-scale">Scavenger Mine</span>
+                </span>
+                <span class="timeline-duration">
+                  <span class="muted">Duration:</span> <strong>21 days</strong>
+                  <span class="timeline-plus" aria-hidden="true">+</span>
+                </span>
+              </button>
+            </h3>
+            <div id="tl-panel-2" class="timeline-panel" hidden>
+              <p>Scavenger Mine ran from October 29 to November 19, 2025, opening participation to everyone through computational puzzle tasks to earn a share of unclaimed NIGHT allocations.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item is-open">
+            <h3 class="timeline-item-heading">
+              <button type="button" class="timeline-trigger" aria-expanded="true" aria-controls="tl-panel-3">
+                <span class="timeline-trigger-main">
+                  <span class="timeline-badges">
+                    <span class="badge-live">Live</span>
+                  </span>
+                  <span class="t-24-no-scale">Thawing &amp; Redemption Period</span>
+                </span>
+                <span class="timeline-duration">
+                  <span class="muted">Duration:</span> <strong>450 days</strong>
+                  <span class="timeline-plus" aria-hidden="true">−</span>
+                </span>
+              </button>
+            </h3>
+            <div id="tl-panel-3" class="timeline-panel">
+              <p>During the Redemption period, Glacier Drop and Scavenger Mine claims thaw (unlock) following a staggered schedule in four installments over the course of 360 days. The date of a claimed allocation’s first installment is randomly determined to fall over a range of 1–90 days, with subsequent installments following every 90 days. Allocation thaws happen in equal 25% shares.</p>
+              <p>Claimants may choose to redeem each share of their allotted tokens as they thaw, or wait until they fully unlock to redeem the whole allotment at once. Each redemption involves a Cardano transaction, thus requiring claimants to cover the cost of the Cardano network transaction fee.</p>
+              <p>The Redemption period concludes with a 90-day grace period during which the NIGHT Claim Portal website will remain operational, allowing redemptions to continue beyond the thawing of the last tokens.</p>
+              <a class="lnk-blue" href="https://midnight.gd/redeem" target="_blank" rel="noopener noreferrer">Learn more →</a>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <h3 class="timeline-item-heading">
+              <button type="button" class="timeline-trigger" aria-expanded="false" aria-controls="tl-panel-4">
+                <span class="timeline-trigger-main">
+                  <span class="timeline-badges">
+                    <span class="phase-tag">Claim phase 3</span>
+                  </span>
+                  <span class="t-24-no-scale">Lost-and-Found</span>
+                </span>
+                <span class="timeline-duration">
+                  <span class="muted">Duration:</span> <strong>4 years</strong>
+                  <span class="timeline-plus" aria-hidden="true">+</span>
+                </span>
+              </button>
+            </h3>
+            <div id="tl-panel-4" class="timeline-panel" hidden>
+              <p>Lost-and-Found provides a 4-year window following the main Redemption period for eligible participants who missed earlier claim windows to recover a portion of their allocation.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <h3 class="timeline-item-heading">
+              <button type="button" class="timeline-trigger" aria-expanded="false" aria-controls="tl-panel-5">
+                <span class="timeline-trigger-main">
+                  <span class="t-24-no-scale">NIGHT Claim Portal sunsetting</span>
+                </span>
+                <span class="timeline-duration">
+                  <span class="timeline-plus" aria-hidden="true">+</span>
+                </span>
+              </button>
+            </h3>
+            <div id="tl-panel-5" class="timeline-panel" hidden>
+              <p>At the conclusion of the Lost-and-Found period, the NIGHT Claim Portal will sunset and any remaining unclaimed tokens will be handled according to the Midnight Network tokenomics specification.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="signup" class="site-footer bg-blue text-white">
+    <div class="container">
+      <div class="footer-top-grid">
+        <nav class="footer-nav" aria-label="Footer">
+          <div class="footer-col">
+            <h2 class="footer-col-title">Explore</h2>
+            <ul>
+              <li><a href="https://midnight.network/" target="_blank" rel="noopener noreferrer">midnight.network</a></li>
+              <li><a href="https://midnight.foundation/" target="_blank" rel="noopener noreferrer">midnight.foundation</a></li>
+              <li><a href="https://docs.midnight.network/" target="_blank" rel="noopener noreferrer">docs.midnight.network</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h2 class="footer-col-title">Whitepapers</h2>
+            <ul>
+              <li><a href="https://mpc.midnight.network/hubfs/NIGHT%20MiCA%20White%20Paper.pdf" target="_blank" rel="noopener noreferrer">MiCA</a></li>
+              <li><a href="https://45047878.fs1.hubspotusercontent-na1.net/hubfs/45047878/Tokenomics%20Whitepaper.pdf" target="_blank" rel="noopener noreferrer">Tokenomics</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="footer-newsletter">
+          <h2 class="footer-signup-title">Sign up for updates</h2>
+          <form class="newsletter-form" id="newsletter-form" novalidate>
+            <div class="form-field">
+              <label for="newsletter-email">Email <span aria-hidden="true">*</span></label>
+              <div class="input-row">
+                <input id="newsletter-email" name="email" type="email" autocomplete="email" required placeholder="you@example.com">
+                <button type="submit" class="btn-submit">Submit</button>
+              </div>
+            </div>
+            <div class="checkbox-field">
+              <input id="newsletter-consent" name="consent" type="checkbox" required>
+              <label for="newsletter-consent">
+                By checking this box, I agree to allow Midnight TGE to store and process the personal data submitted on this form in accordance with the Midnight TGE <a href="https://www.midnight.gd/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.
+              </label>
+            </div>
+            <p class="form-note">Note: emails will come from <code>info@midnighttge.io</code> for whitelisting purposes. <span aria-hidden="true">*</span></p>
+            <p class="form-status" id="newsletter-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-middle">
+        <div class="footer-socials">
+          <span class="footer-label">Follow Midnight</span>
+          <div class="social-pills">
+            <a class="social-pill" href="https://x.com/MidnightNtwrk" target="_blank" rel="noopener noreferrer">Twitter</a>
+            <a class="social-pill" href="https://discord.com/invite/midnightnetwork" target="_blank" rel="noopener noreferrer">Discord</a>
+            <a class="social-pill" href="https://t.me/Midnight_Network_Official" target="_blank" rel="noopener noreferrer">Telegram</a>
+            <a class="social-pill" href="https://www.linkedin.com/showcase/midnight-ntwrk/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a class="social-pill" href="https://www.youtube.com/@midnight.network" target="_blank" rel="noopener noreferrer">Youtube</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="legal-links">
+          <span class="footer-label">Legal</span>
+          <ul>
+            <li><a href="https://www.midnight.gd/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
+            <li><a href="https://www.midnight.gd/terms-and-conditions" target="_blank" rel="noopener noreferrer">Website Terms of Use</a></li>
+            <li><a href="https://www.midnight.gd/cookie-policy" target="_blank" rel="noopener noreferrer">Cookies Policy</a></li>
+            <li><a href="https://www.midnight.gd/token-end-user-terms" target="_blank" rel="noopener noreferrer">Token End User Terms</a></li>
+            <li><a href="https://www.midnight.gd/global-terms" target="_blank" rel="noopener noreferrer">Global Terms</a></li>
+          </ul>
+        </div>
+
+        <div class="policy-id-box">
+          <span class="footer-label">Night Policy ID:</span>
+          <button type="button" class="copy-policy-btn" id="copy-policy-btn" data-policy-id="0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854">
+            <span class="policy-id-text">0691b2fecca1ac4f53cb6dfb00b7013e561d1f34403b957cbb5af1fa4e49474854</span>
+            <span class="copy-badge" id="copy-badge">Copy</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
